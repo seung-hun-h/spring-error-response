@@ -1,0 +1,11 @@
+### hello
+http://localhost:8080/hello
+
+### 사용자 조회
+http://localhost:8080/users/1
+
+### 사용자 조회 - 타입 불일치
+http://localhost:8080/users/abc
+
+### 존재하지 않는 URL
+http://localhost:8080/not-found
