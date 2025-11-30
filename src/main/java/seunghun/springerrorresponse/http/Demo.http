@@ -9,3 +9,12 @@ http://localhost:8080/users/abc
 
 ### 존재하지 않는 URL
 http://localhost:8080/not-found
+
+### 사용자 생성
+POST http://localhost:8080/users
+Content-Type: application/json
+
+{
+    "name": "",
+    "age": -1
+}
